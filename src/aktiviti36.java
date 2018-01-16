@@ -18,13 +18,13 @@ public static void main(String[] args){
     double harga = 0.00;
     char jawap;
     
-    System.out.print("Masukkan nama anda: ");
+    System.out.print("Masukkan nama penuh anda: ");
     nama=input.nextLine();
     
-    System.out.print("Ada kad ahli (Y/T)");
+    System.out.print("Mempunyai kad ahli (Y/T)");
     jawap=input.findInLine(".").charAt(0);
     
-    System.out.print("Umur anda sekarang: ");
+    System.out.print("Masukkan umur anda sekarang: ");
     umur=input.nextInt();
     
     if (umur >= 12 || umur < 65){
